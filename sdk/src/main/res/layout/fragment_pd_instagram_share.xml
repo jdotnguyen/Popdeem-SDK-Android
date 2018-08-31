@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:lines="3"
-                android:text="Your message has been copied to the clipboard."
+                android:text="Tu mensaje ha sido copiado en el portapapeles."
                 android:textColor="@android:color/black"
                 android:textSize="13sp"
                 android:textStyle="bold" />
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:lines="4"
-                android:text="You will now be directed to Instagram where you can paste the message. Tap and hold to paste your message."
+                android:text="Ahora serás redirigido a Instagram, donde podrás pegar el mensaje. Haz clic sostenido para pegar tu mensaje."
                 android:textColor="@android:color/black"
                 android:textSize="13sp" />
 
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:lines="3"
-                android:text="Make sure you are logged into the correct account on Instagram."
+                android:text="Asegúrate de que has iniciado sesión con la cuenta correcta de Instagram."
                 android:textColor="@android:color/black"
                 android:textSize="13sp"
                 android:textStyle="bold" />
@@ -116,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:lines="4"
-                android:text="Your post will publish to whichever account your are currently logged into on the Instagram app."
+                android:text="Tu mensaje será publicado en cualquier cuenta a la que estés conectado actualmente en la aplicación de Instagram."
                 android:textColor="@android:color/black"
                 android:textSize="13sp" />
 
@@ -142,7 +142,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@color/pd_toolbar_color"
                 android:minHeight="35dp"
-                android:text="Okay, Gotcha"
+                android:text="Ok, entendido."
                 android:textAllCaps="false"
                 android:textColor="@android:color/white" />
 
@@ -242,7 +242,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@color/pd_toolbar_color"
                 android:minHeight="35dp"
-                android:text="Okay, Gotcha"
+                android:text="Ok, entendido."
                 android:textAllCaps="false"
                 android:textColor="@android:color/white" />
 

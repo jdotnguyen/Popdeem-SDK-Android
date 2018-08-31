@@ -306,23 +306,23 @@ public class PDUIRewardsRecyclerViewAdapter extends RecyclerView.Adapter<PDUIRew
         // Note: watch icon is invisible in editor
         if (intervalMonths > 0) {
             if (intervalMonths > 1) {
-                ret = ret + "⌚︎ " + intervalMonths + " months left to claim";
+                ret = ret + "⌚︎ " + intervalMonths + " meses para reclamar";
             } else {
-                ret = ret + "⌚︎ " + intervalMonths + " month left to claim";
+                ret = ret + "⌚︎ " + intervalMonths + " mes para reclamar";
             }
         } else if (intervalDays > 6) {
-            ret = ret + "⌚︎ " + intervalWeeks + " weeks left to claim";
+            ret = ret + "⌚︎ " + intervalWeeks + " semanas para reclamar";
         } else if (intervalDays < 7 && intervalHours > 23) {
             if(intervalDays == 1) {
-                ret = ret + "⌚︎ " + intervalDays + " day left to claim";
+                ret = ret + "⌚︎ " + intervalDays + " día para reclamar";
             }else{
-                ret = ret + "⌚︎ " + intervalDays + " days left to claim";
+                ret = ret + "⌚︎ " + intervalDays + " días para reclamar";
             }
         } else {
             if(intervalHours == 1) {
-                ret = ret + "⌚︎ " + intervalHours + " hour left to claim";
+                ret = ret + "⌚︎ " + intervalHours + " hora para reclamar";
             }else{
-                ret = ret + "⌚︎ " + intervalHours + " hours left to claim";
+                ret = ret + "⌚︎ " + intervalHours + " horas para reclamar";
             }
         }
 
